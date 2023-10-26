@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>E-Commerce | Website | Pardeep</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo1.jpg">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="">
+    <div id="preloader"></div>
+    <nav class="navbarmain home">
+      <nav class="main navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              style="width: auto; height: 50px"
+              src="./images/logo1.jpg"
+              alt="e-commerce"
+          /><span class="account-name text-white ms-3"></span></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3 text-3xl text-center">
+              <li class="nav-item ">
+                <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-white" href="#">Product</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-white" href="#">About</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-white" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item login-nav-item login-disable">
+                <a class="nav-link text-white" href="#"
+                  ><i class="fa-solid fa-cart-shopping cart-logo"></i
+                ><span class="cart-count position-absolute translate-middle badge rounded-pill bg-danger">
+                    0
+                  </span></a>
+              </li>
+              <li class="nav-item login-disable login-nav-item">
+                <a class="nav-link text-white" href="#"><i class=" user-logo fa-solid fa-circle-user"></i></a>
+              </li>
+              <li class="nav-item login-disable login-nav-item logout">
+                <a class="nav-link text-white" href="#"><i class="fa-solid fa-right-from-bracket user-logout"></i></a>
+              </li>
+            </ul>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </nav>
+    <section class="loginStatus">
+        <p class="text-center bg-info-subtle m-0"><span>👤Welcome➡️ <span class="login-status">Please Login 🔑</span></span></p>
+        <p class="text-center m-0 bg-success text-white Form-sub-status submitFormBtnHide">Form Submited</p>
+        <p class="text-center m-0 bg-warning text-black Form-sub-status userpassword submitFormBtnHide">User: "Pardeep1111" || Password:"9023"</p>
+    </section>
+<div class="mainPage">
+  <section class="header-img">
+    <div class="main">
+        <div class="header-section d-flex align-items-center justify-content-center">
+            <div class="">
+                <div class=" LogoutAll login-website-text login-disable">
+                  <p class="e mb-4">🛒</p>
+                  <h1 class="text-dark mb-4" >Make Yourself At Home</h1> 
+                  <p class="header-text text-dark mb-4" >Vestibulum, diam vulputate amet cras in diam quis turpis curabitur tellus aliquet tellus iaculis tempus, sollicitudin massa duis eleifend egestas turpis sit etiam commodo viverra lacinia ipsum convallis sed augue purus scelerisque non vestibulum elementum mi, pellentesque leo tincidunt integer.</p>
+                  <button class="btn btn-warning shopProductNowbtn">Shop Now</button>
+                </div>
+              <div class="mx-0">
+                <div class="login-website-conatiner">
+                  <h2 class="mb-5">👤Login🔐</h2>
+                  <form>
+                      <div class="form-group mb-4">
+                          <label class="mb-3" for="username">Username:</label>
+                          <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                      </div>
+                      <div class="form-group mb-4">
+                          <label class="mb-3" for="password">Password:</label>
+                          <div class="password_Show_hide">
+                            <input type="password" id="password" name="password" placeholder="Enter your password" required >
+                            <span class="showpassbtn">👀</span>
+                          </div>
+                          
+                      </div>
+                      <div class="form-group mb-4">
+                          <button class="login" type="submit">Login 🔘</button>
+                          <span class="login-error"></span>
+                      </div>
+                      <p class="showIdPass" style="cursor: pointer; color: red;">What is Id and Password ?</p>
+                  </form>
+              </div>
+              </div>
+            </div> 
+        </div>
+    </div>
+</section>
+<!-- //-----------------------Header end---------------------------->
+<!-- //---------------------new-Collection ------------------------->
+<section class="LogoutAll new-Collection login-disable">
+  <div class="">
+    <div class="new-Collection-container main">
+      <div class="row d-flex align-items-center justify-content-center">
+        <div class="col-md-6 col-10">
+          <img class="img img-fluid" src="./images/new-collection.jpg" alt="">
+        </div>
+        <div class="col-md-6 col-10">
+          <p class="mb-5">🆕NEW COLLECTION</p>
+          <h1 class="mb-4">A Perfect Set For Your Living Room</h1>
+          <p class="mb-4">Massa cras egestas laoreet montes, dapibus eu sit etiam curabitur faucibus habitasse lectus vestibulum leo, odio dolor quis maecenas faucibus vulputate pharetra nunc sed maecenas diam quisque habitasse.</p>
+          <button class="btn btn-warning shopCollection mb-2">SHOP THIS COLLECTION</button>
+          <p class="collectionNotAvaliable"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- //---------------------new-Collection end------------------------->
+
+<!-- //---------------------products----------------------------------->
+
+<section class="LogoutAll login-disable dd">
+  <hr>
+  <div class="products main">
+    <!--------------card 1------------------>
+    <h1 class="text-center text-dark mb-5">Most Selling Products</h1>
+    <div class="row dd">
+      <div class="col d-flex justify-content-center align-items-center flex-column mb-3">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/prod4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cream Brand</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="rupies text-danger">💵 <span>340</span> Rs</p>
+            <button class="showmebtn btn btn-outline-dark w-25">👁️</button>
+            <button class="btn btn-outline-warning add-cart-main-all">Add to Cart <span class="doneToCart done ">✅</span><span><img class="doneToCart1 done" src="./images/loading.gif.gif" style="width: 20px; height: 20px;" alt="e"></span></button>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center align-items-center flex-column mb-3">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/prod2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Oil Green</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="rupies text-danger">💵 <span>980</span> Rs</p>
+            <button class="showmebtn btn btn-outline-dark w-25">👁️</button>
+            <button class="btn btn-outline-warning add-cart-main-all">Add to Cart <span class="doneToCart done">✅</span><span><img class="doneToCart1 done" src="./images/loading.gif.gif" style="width: 20px; height: 20px;" alt="e"></span></button>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center align-items-center flex-column mb-3">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/prod6.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Skin Kraft</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="rupies text-danger">💵 <span>499</span> Rs</p>
+            
+            <button class="showmebtn btn btn-outline-dark w-25">👁️</button>
+            <button class="btn btn-outline-warning add-cart-main-all">Add to Cart <span class="doneToCart done">✅</span><span><img class="doneToCart1 done" src="./images/loading.gif.gif" style="width: 20px; height: 20px;" alt="e"></span></button>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center align-items-center flex-column mb-3">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/prod7.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Natural Cream</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="rupies text-danger">💵 <span>320</span> Rs</p>
+            <button class="showmebtn btn btn-outline-dark w-25">👁️</button>
+            <button class="btn btn-outline-warning add-cart-main-all">Add to Cart <span class="doneToCart done">✅</span><span><img class="doneToCart1 done" src="./images/loading.gif.gif" style="width: 20px; height: 20px;" alt="e"></span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <!--------------card 2------------------>
+    <div class="row">
+      <div class="col d-flex justify-content-center align-items-center flex-column mb-3">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/prod1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Lotus Organic</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="rupies text-danger">💵 <span>500</span> Rs</p>
+            
+            <button class="showmebtn btn btn-outline-dark w-25">👁️</button>
+            <button class="btn btn-outline-warning add-cart-main-all">Add to Cart <span class="doneToCart done">✅</span><span><img class="doneToCart1 done" src="./images/loading.gif.gif" style="width: 20px; height: 20px;" alt="e"></span></button>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center align-items-center flex-column mb-3">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/prod9.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cloths</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="rupies text-danger">💵 <span>287</span> Rs</p>
+            
+            <button class="showmebtn btn btn-outline-dark w-25">👁️</button>
+            <button class="btn btn-outline-warning add-cart-main-all">Add to Cart <span class="doneToCart done">✅</span><span><img class="doneToCart1 done" src="./images/loading.gif.gif" style="width: 20px; height: 20px;" alt="e"></span></button>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center align-items-center flex-column mb-3">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/prod11.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">MultiColor T-shirt</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="rupies text-danger">💵 <span>887</span> Rs</p>
+            <button class="showmebtn btn btn-outline-dark w-25">👁️</button>
+            <button class="btn btn-outline-warning add-cart-main-all">Add to Cart <span class="doneToCart done">✅</span><span><img class="doneToCart1 done" src="./images/loading.gif.gif" style="width: 20px; height: 20px;" alt="e"></span></button>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center align-items-center flex-column mb-3">
+        <div class="card" style="width: 18rem;">
+          <img src="./images/prod10.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">3 T-Shirt</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="rupies text-danger">💵 <span>657</span> Rs</p>
+            <button class="showmebtn btn btn-outline-dark w-25">👁️</button>
+            <button class="btn btn-outline-warning add-cart-main-all">Add to Cart <span class="doneToCart done">✅</span><span><img class="doneToCart1 done" src="./images/loading.gif.gif" style="width: 20px; height: 20px;" alt="e"></span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="products"></div>
+</section>
+
+<!---------------------------------View Product------------------->
+<section class="viewProduct-section viewclosewindow">
+<div class="LogoutAll login-disable">
+<div class="viewProduct1">
+  <div class="viewProduct">
+    <button class="btn viewclose">❌</button>
+    <div class="row">
+      <div class="col d-flex justify-content-center">
+        <div class="card viewProductCard" style="width: 18rem;">
+        </div>
+      </div>
+      <div class="col viewProductText">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis ipsum sapiente fuga quos aspernatur veritatis dicta deleniti, ea aut pariatur hic, rem vel quo voluptatum incidunt ex libero. Sint, optio.</p>
+        <div class="btn-group" role="group" aria-label="Basic outlined example">
+          <button type="button" class="btn btn-outline-warning product_Subtract">➖</button>
+          <button type="button" class="btn btn-outline-danger product_show" disabled>1</button>
+          <button type="button" class="btn btn-outline-warning product_Add">➕</button>
+        </div>
+        <button class="btn btn-warning add-cart-main-all-view">ADD TO CART<span class="doneToCart done">✅</span><span><img class="doneToCart1 done" src="./images/loading.gif.gif" style="width: 20px; height: 20px;" alt="e"></span></button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+<!-- ------------------ChooseUs---------------------- -->
+<section class="LogoutAll login-disable my-5">
+<hr>
+<div class="chooseUs main ">
+<h1 class="text-center mb-5">Why Choose Us</h1>
+<div class="row mx-4">
+  <div class="col">
+    <i  class="fa-solid fa-percent mb-4"></i>
+    <h5 class="mb-3">Big Discount</h5>
+    <p>Integer euismod blandit nunc sit amet sollicitudin. Fusce quis orci viverra, cursus justo.</p>
+  </div>
+  <div class="col">
+    <i  class="fa-solid fa-file-invoice-dollar mb-4"></i>
+    <h5 class="mb-3">Free Shopping</h5>
+    <p>Integer euismod blandit nunc sit amet sollicitudin. Fusce quis orci viverra, cursus justo.</p>
+  </div>
+  <div class="col">
+    <i  class="fa-solid fa-store mb-4"></i>
+    <h5 class="mb-3">Secure Payments</h5>
+    <p>Integer euismod blandit nunc sit amet sollicitudin. Fusce quis orci viverra, cursus justo.</p>
+  </div>
+  <div class="col">
+    <i  class="fa-solid fa-map-location-dot mb-4"></i>
+    <h5 class="mb-3">Order Tracking</h5>
+    <p>Integer euismod blandit nunc sit amet sollicitudin. Fusce quis orci viverra, cursus justo.</p>
+  </div>
+</div>
+</div>
+</section>
+
+<!--------------------------About Us----------------------->
+<section class="LogoutAll login-disable aboutme main">
+<hr>
+<h1 class="text-center my-5">About Us</h1>
+<div class="about-content mb-5">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="image">
+        <img class="img img-fluid" src="./images/pardeep copy.jpg" alt="Company Image">
+    </div>
+    </div>
+    <div class="col-md-6">
+      <div class="text px-md-5 px-1">
+        <h2 class="mb-md-3 mb-5">The Best Quality
+         Furniture Store in Town</h2>
+        <p class="">Sagittis enim, auctor ultrices dui etiam viverra nulla scelerisque in semper porttitor pharetra, tortor amet lorem cursus velit posuere tristique tempus, tincidunt non velit quis congue lectus a ullamcorper iaculis.</p>
+        <ol>
+         <li>Sagittis enim, auctor ultrices dui etiam viverra nulla.</li>
+         <li>Tincidunt sed eget nunc tellus viverra sapien massa cursus.</li>
+         <li>Pretium, tempus ultricies lacus eleifend scelerisque sem.</li>
+        </ol>
+        <p>Login For Buy New Products</p>
+        <button class="btn btn-warning buyProductbtn">Buy Product</button>
+    </div>
+    </div>
+  </div>
+     
+     
+</div>
+</section>
+<!--=----------------Contact------------------------>
+<section class="LogoutAll login-disable contact main">
+<hr>
+<h1 class="text-center mt-5 ">Contact Us</h1>
+<div class="contact-form">
+<div class="row">
+  <div class="col-md-6 col-12">
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputText" class="form-label">Name</label>
+        <input type="text" class="form-control" id="exampleInputText1" aria-describedby="textHelp" required>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" required></textarea>
+      </div>
+      <button class="btn btn-primary SubmitFormBtn mb-5" onclick="validateForm()">Submit Form</button>
+    </form>
+  </div>
+  <div class="col-md-6 col-12">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13723.44093753398!2d76.86056445!3d30.694208299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1698078864501!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+</div>
+</section>
+<!--------------------Footer---------------------- -->
+<footer>
+  <div class="LogoutAll login-disable footer text-center">
+    <p class="m-0 p-2">@ | Pardeep Kumar | 2003-2024 | E-Commerce website</p>
+  </div>
+</footer>
+</div>
+
+<!----------------------Add Cart Page------------------ -->
+<section class=" cartPage-conatiner master-container">
+  <button class="btn btn-outline-primary my-5 mx-4 back-page-main">⬅️ Go Back</button>
+  <div class="main px-2">
+    <h1 class="mb-4">Cart</h1>
+    <div class="row">
+      <!---------------------------addCart------------------->
+      <div class="col-md-8 col-12">
+        <table class="table text-center">
+          <thead class="">
+            <tr class="text-center">
+              <th scope="col"><button class="btn btn-danger clearCart">Clear</button></th>
+            </tr>
+          </thead>
+          <tbody class="addCartProduct">
+            <!-- -----rows -------->
+
+            <!-- -----rows end-------->
+          </tbody>
+        </table>
+      </div>
+      <!-- ---------------------Cart Total----------------------------->
+      <div class="col">
+        <div class="cart-total">
+          <table class="table text-center">
+            <thead>
+              <tr>
+                <th><h4 class="font-bold">Cart Total</h4></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <!----------Row 1------->
+              <tr>
+                <td>Total</td>
+                <td class="totalPrice">0<span> Rs</span></td>
+              </tr>
+              <!--------Row 2--------->
+              <tr>
+                <td colspan="2">
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Coupon Code" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-warning" type="button" id="button-addon2">Apply</button>
+                  </div>
+                </td>
+              </tr>
+              <!------Row 3 ----->
+              <tr>
+                <td colspan="2">
+                  <button class="btn btn-warning w-100">CHECKOUT</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

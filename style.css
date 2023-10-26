@@ -1,0 +1,329 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 1300px;
+  margin: auto;
+  padding: 10px 10px;
+}
+
+#preloader {
+  background: #ecf0f1 url(images/loader.gif) no-repeat center center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-img {
+  background-image: url("./images/nav.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.navbarmain {
+  border-bottom: 1px solid rgb(146, 145, 145);
+  background-color: #333;
+}
+.nav-item {
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: rgb(0, 255, 166) !important;
+}
+
+.cart-logo {
+  font-size: 1.5rem;
+  color: rgb(0, 251, 255);
+}
+.cart-count {
+  margin-left: 10px;
+  margin-top: -5px;
+}
+.user-logo {
+  font-size: 25px;
+  border: 3px solid rgb(255, 255, 0);
+  border-radius: 50%;
+}
+.user-logout {
+  font-size: 27px;
+  color: rgb(241, 99, 99);
+  border-radius: 50%;
+}
+/* -----------------Header------------------ */
+.header-section {
+  height: 79vh;
+}
+.header-section p {
+  line-height: 30px;
+}
+.e {
+  font-size: 3rem;
+}
+.login-website-conatiner {
+  width: 400px;
+}
+
+/* ----------------Login Status-------------------- */
+.login-status {
+  animation: status 1s ease-in-out infinite alternate;
+}
+@keyframes status {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.login-disable {
+  display: none;
+}
+/* //-------------------Input login------------------------------ */
+.login-website-conatiner {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 0px 50px rgb(255, 255, 255);
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin: 15px 0;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group button {
+  background: #007bff;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background: #0056b3;
+}
+/* //---------------New Collection---------------------- */
+.new-Collection {
+  margin: 100px 0px;
+}
+
+/* -------------------- Products cards---------------- */
+.card {
+  position: relative;
+}
+.card:hover {
+  box-shadow: 0px 0px 20px gray;
+  transition: all 0.5s linear;
+}
+.card img {
+  height: 200px;
+}
+
+/* -------------------------Choose Us-------------------------- */
+.chooseUs i {
+  font-size: 40px;
+  color: gray;
+}
+
+/* -----------------------------Footer------------------------ */
+.footer {
+  background-color: black;
+  color: white;
+}
+
+/* ------------------About Us------------------- */
+
+/* Style the about content section */
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Style the image container */
+.image {
+  flex: 1;
+  text-align: center;
+}
+
+/* Style the image */
+.image img {
+  border-radius: 50px;
+}
+
+/* Style the text container */
+.text {
+  flex: 1;
+  padding: 10px;
+}
+
+/* Style headings */
+h1,
+h2 {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Style paragraphs */
+p {
+  font-family: Arial, sans-serif;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* ---------------------Contact---------------- */
+.contact-form {
+  margin: 50px 0px;
+}
+
+/* -------------- view product-------- */
+.viewProduct-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.viewProduct {
+  max-width: 700px;
+  background-color: white;
+  padding: 20px 10px;
+  border-radius: 20px;
+}
+.viewclose {
+  cursor: pointer;
+  float: right;
+}
+
+.viewclosewindow {
+  display: none;
+}
+
+/* -------------------Add product-------------- */
+.add_product,
+.sub_product {
+  font-size: 1.5rem;
+}
+
+/* //-----------------Master container  */
+.master-container {
+  display: none;
+}
+/* //------------------------ Cart  */
+.cartImg {
+  width: 40px;
+  border-radius: 6px;
+}
+.table tbody td {
+  padding: 20px;
+}
+table,
+thead,
+tbody {
+  border: 2px solid gray;
+}
+.cartPage-conatiner {
+  margin-top: 0px;
+}
+
+/* //------doneToCart: STATUS --------- */
+.done {
+  display: none;
+  transition: all 1s ease-in-out;
+}
+
+/* -----------Submit form status----------- */
+.submitFormBtnHide {
+  display: none;
+}
+
+/*--------password show and hide*/
+.password_Show_hide {
+  position: relative;
+}
+.showpassbtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>> Responsive >>>>>>>>>>>>>>>>>>>>>> */
+@media (max-width: 967px) {
+  iframe {
+    width: 100%;
+  }
+  .navbar-toggler {
+    background-color: white !important;
+  }
+}
+@media (max-width: 738px) {
+  iframe {
+    width: 100%;
+  }
+}
+@media (max-width: 424px) {
+  .login-website-conatiner {
+    width: 300px;
+  }
+  table td {
+    text-align: right;
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+    /* font-size: 0.5rem; */
+  }
+  table .myimg {
+    text-align: center !important;
+  }
+  table .myimg img {
+    width: 50%;
+  }
+  table td::before {
+    content: attr(data-title);
+    float: left;
+  }
+  tbody td:nth-child(even) {
+    background-color: #dedada;
+  }
+}
+@media (max-width: 310px) {
+  .login-website-conatiner {
+    width: 250px;
+  }
+}
