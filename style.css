@@ -321,6 +321,24 @@ tbody {
   tbody td:nth-child(even) {
     background-color: #dedada;
   }
+  .viewProductText {
+    margin: 0px 5px;
+  }
+  .viewclose {
+    position: absolute;
+    right: 0px;
+    padding: 0px 10px;
+  }
+}
+@media (max-width: 400px) {
+  .viewProductText {
+    margin: 0px 5px;
+  }
+  .viewclose {
+    position: absolute;
+    right: 0px;
+    padding: 0px 10px;
+  }
 }
 @media (max-width: 310px) {
   .login-website-conatiner {
